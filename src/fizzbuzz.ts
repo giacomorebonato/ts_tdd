@@ -1,4 +1,4 @@
-let fizzbuzz = {
+const fizzbuzz = {
   print: (n: number) => {
     let text = ''
 
