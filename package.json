@@ -1,0 +1,32 @@
+{
+  "name": "ts_tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/jest": "^21.1.8",
+    "@types/node": "^8.0.53",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.2.3",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Giacomo Rebonato",
+  "license": "MIT",
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  }
+}
